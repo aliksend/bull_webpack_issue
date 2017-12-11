@@ -1,0 +1,21 @@
+{
+  "name": "bull_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:js": "node index.js",
+    "start:ts": "webpack && node dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bull": "^3.3.0",
+    "bull": "^3.3.7",
+    "hiredis": "^0.5.0",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}
